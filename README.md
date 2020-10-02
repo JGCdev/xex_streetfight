@@ -53,4 +53,4 @@ xex_streetfight - Streetfights for FiveM ESX servers
 
 Copyright (C) 2020 Jesús Giménez
 
-This program Is free software: Feel free to use, distribute or modify as you wish.
+This program Is free software under GNU GENERAL PUBLIC LICENSE, check license file for more details
