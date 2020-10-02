@@ -16,8 +16,8 @@ go to coordinates and fight!
 
 ## Screenshots
 
-![Preview panoramic](https://github.com/JGCdev/Survey-Maker/blob/master/src/assets/img/readme/home.JPG)
+![Preview panoramic](https://github.com/JGCdev/xex_streetfight/blob/master/screenshots/ring.png)
 
-![Preview close view](https://github.com/JGCdev/Survey-Maker/blob/master/src/assets/img/readme/auth.JPG)
+![Preview close view](https://github.com/JGCdev/xex_streetfight/blob/master/screenshots/ring2.png)
 
-![Preview night view](https://github.com/JGCdev/Survey-Maker/blob/master/src/assets/img/readme/app.JPG)
+![Preview night view](https://github.com/JGCdev/xex_streetfight/blob/master/screenshots/ring-night.png)
