@@ -10,7 +10,7 @@ GTAV FiveM resource to enable streetfights with bets. Map included.
 
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_vehicleshop [esx]/esx_vehicleshop
+git clone https://github.com/JGCdev/xex_streetfight 
 ```
 - Delete screenshots folder
 - Add this in your `server.cfg`:
