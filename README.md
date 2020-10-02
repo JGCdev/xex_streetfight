@@ -1,4 +1,4 @@
-# xex_StreetFights - ESX Compatible
+# xex_streetfights - ESX Compatible
 
 GTAV FiveM resource to enable streetfights with bets. Map included. 
 
@@ -30,7 +30,10 @@ If you get too far from the ring, you lose.
 Players teleport outside when they get too close to the fight.
 
 ## Configuration
-Guide included in config file variables
+
+Translate files to your language (only Spanish included)
+
+Modify config variables if you want
 
 
 ## Screenshots
