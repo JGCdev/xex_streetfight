@@ -1,5 +1,24 @@
-# FiveM StreetFights - ESX Compatible
-GTAV FiveM resource to enable street fights with bets. Map included. 
+# xex_StreetFights - ESX Compatible
+
+GTAV FiveM resource to enable streetfights with bets. Map included. 
+
+## Requirements
+
+* es_extended (ESX)
+
+## Download & Installation
+
+```
+cd resources
+git clone https://github.com/ESX-Org/esx_vehicleshop [esx]/esx_vehicleshop
+```
+- Delete screenshots folder
+- Add this in your `server.cfg`:
+
+```
+start ring 
+start xex_streetfight
+```
 
 ## Usage
 Go to the coordinates (x = -517.61, y = -1712.04, z = 20.45) and set the bet, then you need two players to join each side and start the fight.
@@ -13,14 +32,6 @@ Players teleport outside when they get too close to the fight.
 ## Configuration
 Guide included in config file variables
 
-## Setup
-In server.cfg:
-
-start ring 
-
-start xex_streetfight
-
-Go to coordinates and fight! 🥊
 
 ## Screenshots
 
@@ -29,3 +40,14 @@ Go to coordinates and fight! 🥊
 ![Preview panoramic](https://github.com/JGCdev/xex_streetfight/blob/master/screenshots/ring.png)
 
 ![Preview night view](https://github.com/JGCdev/xex_streetfight/blob/master/screenshots/ring-night.png)
+
+
+## Legal
+
+### License
+
+xex_streetfight - Streetfights for FiveM ESX servers
+
+Copyright (C) 2020 Jesús Giménez
+
+This program Is free software: Feel free to use, distribute or modify as you wish.
