@@ -11,8 +11,10 @@ Players teleport outside when they get too close to the fight.
 Guide included in config file variables
 
 ## Setup
-start ring and xex_streetfight in your server.cfg
-go to coordinates and fight!
+In server.cfg:
+start ring 
+start xex_streetfight
+Go to coordinates and fight! 🥊
 
 ## Screenshots
 
