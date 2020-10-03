@@ -29,7 +29,7 @@ AddEventHandler('xex_streetfight:join', function(betAmount, side)
         table.insert(fight, fighter)
 
         balance = xPlayer.getAccount('money').money
-        if (balance > betAmount) then
+        if (balance > betAmount) or betAmount == 0 then
             xPlayer.removeAccountMoney('money', betAmount)
             TriggerClientEvent('esx:showNotification', source, 'Te has unido correctamente')
 
