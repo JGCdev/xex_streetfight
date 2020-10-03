@@ -133,8 +133,8 @@ AddEventHandler('xex_streetfight:winnerText', function(id)
     winner = nil
 end)
 
+local actualCount = 0
 function countdown()
-    local actualCount = 0
     for i = 5, 0, -1 do
         actualCount = i
         Citizen.Wait(1000)
