@@ -33,15 +33,16 @@ AddEventHandler('xex_streetfight:join', function(betAmount, side)
             xPlayer.removeAccountMoney('money', betAmount)
             TriggerClientEvent('esx:showNotification', source, 'Te has unido correctamente')
 
+            if side == 0 then
+                TriggerClientEvent('xex_streetfight:playerJoined', -1, 1, source)
+            else
+                TriggerClientEvent('xex_streetfight:playerJoined', -1, 2, source)
+            end
+
             if redPlayerReady and bluePlayerReady then 
                 TriggerClientEvent('xex_streetfight:startFight', -1, fight)
-            else
-				if side == 0 then
-					TriggerClientEvent('xex_streetfight:playerJoined', -1, 1, source)
-				else
-					TriggerClientEvent('xex_streetfight:playerJoined', -1, 2, source)
-				end
             end
+
         else
             TriggerClientEvent('esx:showNotification', source, 'No tienes dinero')
         end
