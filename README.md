@@ -47,6 +47,12 @@ Modify config variables if you want
 
 ## Legal
 
+### Credits
+
+Thanks to @geekbear for the awesome map: 
+https://forum.cfx.re/t/release-ymap-fightclub/805634
+
+
 ### License
 
 xex_streetfight - Streetfights for FiveM ESX servers
