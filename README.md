@@ -8,12 +8,9 @@ GTAV FiveM resource to enable streetfights with bets. Map included.
 
 ## Download & Installation
 
-```
-cd resources
-git clone https://github.com/JGCdev/xex_streetfight 
-```
-- Delete screenshots folder
-- Add this in your `server.cfg`:
+For ESX v1: https://github.com/JGCdev/xex_streetfight/releases/download/v1.0/esxV1.zip
+
+For ESX v2: https://github.com/JGCdev/xex_streetfight/releases/download/v1.0/esxV2.zip
 
 ```
 start ring 
