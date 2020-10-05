@@ -28,9 +28,9 @@ AddEventHandler('xex_streetfight:join', function(betAmount, side)
         }
         table.insert(fight, fighter)
 
-        balance = xPlayer.getAccount('money').money
+        balance = xPlayer.getMoney()
         if (balance > betAmount) or betAmount == 0 then
-            xPlayer.removeAccountMoney('money', betAmount)
+            xPlayer.removeMoney(betAmount)
             TriggerClientEvent('esx:showNotification', source, 'Te has unido correctamente')
 
             if side == 0 then
@@ -87,7 +87,7 @@ RegisterServerEvent('xex_streetfight:pay')
 AddEventHandler('xex_streetfight:pay', function(amount)
     local _source = source
     local xPlayer = ESX.GetPlayerFromId(_source)
-    xPlayer.addAccountMoney('money', amount * 2)
+    xPlayer.addMoney(amount * 2)
 end)
 
 RegisterServerEvent('xex_streetfight:raiseBet')
